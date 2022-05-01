@@ -13,4 +13,4 @@ RUN pip3 install --no-cache-dir sec
 # Switch back to a non-root user
 USER 1001
 
-COPY ./actions/ /app
+COPY ./actions/ /app/actions
